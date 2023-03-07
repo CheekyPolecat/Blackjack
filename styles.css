@@ -5,22 +5,24 @@ body{
 display:flex;
 flex-direction: column;
 background-color: blue;
-
 max-width: 1920px;
 max-height: 1080px;
 margin-left: auto;
 margin-right: auto;
+border: black;
+border-style: solid;
 
 }
 
 
 #game-board{
-  position: absolute;
-   background-color: #1b5e28;
+  position: relative;
+   background-color: #ffff00;
   border: black;
   border-style: solid;
+  flex-basis: 80%;
   
- 
+  
   
 }
 .background{
@@ -30,10 +32,14 @@ margin-right: auto;
 }
 
 #menu-area{
-  display:flex;
+  display: flex;
+  position:relative;
   background-color: brown;
-  width:100%;
-  height: 30%;
+   color:aliceblue
+}
+.player-board{
+  display: flex;
+  
 }
 
 .players{
@@ -78,7 +84,7 @@ margin-right: auto;
   position: absolute;
   top:62%;
   left:73%;
-  transform: translate(-50%, -50%) rotate(-36deg);
+  transform: translate(-50%, -50%) rotate(-37deg);
  }
  .player6{
   position: absolute;
